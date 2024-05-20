@@ -1,0 +1,76 @@
+body{
+  background-image: url(fitness.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar{
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 20px;
+  margin-bottom: 2%;
+}
+
+.navbar  li{
+  font-size: 25px;
+  display: inline;
+  padding: 30px;  
+}
+
+.navbar h1{
+  color: antiquewhite;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.navbar h1{
+  position: fixed;
+  top:0;
+  left:45px;
+  font-style: italic;
+  color: black;
+}
+/* .bg{
+
+ 
+  background-image: url('fitness.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+/* .bg{
+ 
+  background: url(fitness.jpeg) no-repeat center center fixed; 
+  background-size: cover;
+
+} */
+
+.slogan{
+  font-size: 80px;
+  position: fixed;
+  top:300px;
+  left:200px;
+  font-style: italic;
+
+}
+
+.start {
+     position: absolute; 
+     top:  50%;
+     font-size: 70px;
+     text-decoration: none;
+     z-index: 1;
+    left: 70%;
+    /* padding: 20px; */
+    color: antiquewhite;
+}
+
+.bg a{
+  text-decoration: none;
+}

@@ -1,0 +1,61 @@
+.trainee-dashboard {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .trainee-dashboard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .trainee-dashboard input[type="text"],
+  .trainee-dashboard input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .trainee-dashboard button {
+    padding: 10px 20px;
+    background-color: #07284c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .trainee-dashboard button:hover {
+    background-color:  #07284c;
+  }
+  
+  .trainee-dashboard h3 {
+    margin-top: 20px;
+  }
+  
+  .trainee-dashboard ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .trainee-dashboard li {
+    margin-bottom: 20px;
+  }
+  
+  .trainee-dashboard video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .trainee-dashboard video::-webkit-media-controls {
+    display: none;
+  }
+  
+  .trainee-dashboard p {
+    margin-top: 10px;
+  }
+  
+  .trainee-dashboard .currently-playing {
+    margin-top: 20px;
+  }
+  
